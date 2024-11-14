@@ -1,0 +1,53 @@
+Class ada apa aja ? 
+Ticket 
+- dia punya enum dari type dan ticket status
+- punya hubungan dengan Rservation (1 tiket cukup 1 reservasi)
+- punya hubungan dengan Online Payment (1 tiket cukup 1 online payment)
+- punya hubungan dengan Passengger (1 tiket untuk 1 penumpang)
+- punya hubugan dengan Train (1 tiket untuk 1 kereta)
+
+Reservation
+- ada child group reservation
+Online Payment 
+-  interface payment 
+Train 
+- punya enum train type
+
+Yang dibuat apa ? 
+- sistem reservasi kereta api 
+- mengelola : reservasi, pembayaran, dan informasi penumpang
+- fungsi dasar : pemesanan tiket, pembayaran, dan perhitungan pendapatan reservasi 
+Soal 
+- buat class sesuai dengan soal. 
+- buat method yang diminta dan boleh ditambah 
+- class diagram belum lengkap, jadi lengkapin
+- tambahin paramter setiap method 
+- hubungan antar objek berdasarkan class diagram 
+
+MakePayment()
+- paymetn pake paypal, doku, xendit. 
+- status payment : paid, canceled, awaiting payment
+- data dummy boleh digunakan 
+standard 
+- economy 175 
+- business class 250 
+- first class 350 
+Fast Train 
+- ekonomu 400 
+- business class 500 
+- first class 600 
+
+CalculateTotalRevenue
+- hitung pendapatan tiket satu hari
+
+Hal yang harus diperhatikan 
+- ga boleh ubah class
+- menambahkan interface yang gaada di class
+
+Penilaian 
+- gaada input data dari user
+- mvc
+- Asumsi buat aja 
+- Kelengkapan kode 
+- kerapihan kode 
+- menjalankan fungsi makePayment dan calculateTotalRevenue
