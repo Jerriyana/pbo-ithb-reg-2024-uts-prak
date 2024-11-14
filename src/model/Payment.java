@@ -1,5 +1,5 @@
 package model;
 
 public interface Payment {
-    double makePayment();            
+    double makePayment(Ticket ticket, OnlinePayment onlinePayment);            
 }
